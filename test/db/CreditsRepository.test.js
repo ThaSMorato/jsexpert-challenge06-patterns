@@ -1,8 +1,7 @@
 import { jest, expect, describe, it, beforeEach } from "@jest/globals";
-import { PLATFORMS } from "../../src/constants/Platforms";
 import CreditsRepository from "../../src/db/CreditsRepository";
 import { Credit } from "../../src/entities/credit/Credit";
-import { CreditMotherObject } from "./model/CreditMotherObject";
+import { CreditMotherObject } from "../model/CreditMotherObject";
 
 describe("#Credits Repository", () => {
   let repo = {};

@@ -1,5 +1,5 @@
-import { PLATFORMS } from "../../../src/constants/Platforms";
-import { Credit } from "../../../src/entities/credit/Credit";
+import { PLATFORMS } from "../../src/constants/Platforms";
+import { Credit } from "../../src/entities/credit/Credit";
 
 export class CreditsDataBuilder {
   constructor() {
