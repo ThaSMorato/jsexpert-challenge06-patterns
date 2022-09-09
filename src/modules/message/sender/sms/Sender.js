@@ -2,10 +2,7 @@ import { PLATFORMS } from "../../../../constants/Platforms";
 import { SenderInterface } from "../../../../interface/SenderInterface";
 
 class SmsSender extends SenderInterface {
-  constructor({ credits_repository }) {
-    const service = {
-      send: console.log,
-    };
+  constructor({ service, credits_repository }) {
     super({ service, credits_repository });
     this.platform = "";
   }
