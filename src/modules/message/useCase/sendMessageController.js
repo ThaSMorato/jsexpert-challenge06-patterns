@@ -28,6 +28,7 @@ export class SendMessageController {
       to,
       subject,
       message,
+      user_id,
     });
 
     return response;
