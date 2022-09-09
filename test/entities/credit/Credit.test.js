@@ -1,4 +1,4 @@
-import { jest, expect, describe, it, beforeEach } from "@jest/globals";
+import { expect, describe, it } from "@jest/globals";
 import { Credit } from "../../../src/entities/credit/Credit";
 import { CreditMotherObject } from "../../model/CreditMotherObject";
 
