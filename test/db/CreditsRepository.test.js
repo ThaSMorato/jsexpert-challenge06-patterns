@@ -74,4 +74,12 @@ describe("#Credits Repository", () => {
       }
     );
   });
+
+  it("should return error if findOne returns null on consume", async () => {
+    db.findOne.mockResolvedValue(null);
+
+    const response = await repo.consume(credit.user_id, credit.platform);
+
+    expect(response).toBe(`User doesnt have a credit for ${credit.platform}`);
+  });
 });
