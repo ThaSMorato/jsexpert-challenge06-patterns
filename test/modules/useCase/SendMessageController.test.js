@@ -87,7 +87,6 @@ describe("#Send Messsage Controller", () => {
       to,
       subject,
       message,
-      user_id,
     });
   });
 });
